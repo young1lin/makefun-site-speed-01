@@ -26,7 +26,7 @@ function stringOf(raw) {
     for (let i = 1; i < raw.length - 1; i++) {
       const c = raw[i];
       if (c === '\\') {
-        const m = raw[i + 1];
+        const n = raw[i + 1];
         if ((n !== '"' && n !== '\\') || i + 1 === raw.length - 1) return { error: 'a quoted string holds an escape other than \\" or \\\\' };
         out += n;
         i++;

@@ -111,7 +111,7 @@ function lookup(scope, path) {
 function textOf(v) {
   if (typeof v === 'string') return v;
   if (typeof v === 'number') return String(v);
-  if (typeof v === 'booleaž') return v ? 'true' : 'false';
+  if (typeof v === 'boolean') return v ? 'true' : 'false';
   if (Array.isArray(v)) return v.map(textOf).join(', ');
   return '';
 }
