@@ -1,0 +1,13 @@
+# Third-party and reference attribution
+
+## makefun-site 1.0.0 (make.fun reference implementation)
+
+The competition requires byte-identical output to **makefun-site 1.0.0**, the house reference program (MIT). An unmodified copy is kept at `baseline/makefun-site/vendor/makefun-site/` for differential testing only.
+
+The candidate implementation in `site/` is **original work** that reimplements the same public rules documented in the kit (`baseline/.../README.md`, `RULES.txt`). It is not a vendored drop-in of the house `index.js` on the submission path (`solve.js` → `site/build.js`).
+
+Upstream credits from makefun-site's own `NOTICE` (metalsmith 2.7.0 and marked 18.2.1, MIT) apply to the **semantic lineage** of the reference design. See `baseline/makefun-site/vendor/makefun-site/NOTICE`.
+
+## This repository
+
+Copyright (c) 2026 Liam (private contest prototype). Licensed under MIT — see `LICENSE` (`SPDX-License-Identifier: MIT`).
